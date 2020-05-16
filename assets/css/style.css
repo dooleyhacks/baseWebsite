@@ -94,8 +94,11 @@ body {
     max-width: 100%;
 }
 
-.blank-space {
+.blank-space-large {
     height: 100px;
+}
+.blank-space {
+    height: 10px;
 }
 
 .zoom {
@@ -112,7 +115,7 @@ body {
 
 .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    max-width: 300px;
+    max-width: 270px;
     min-width: 200px;
     margin: auto;
     text-align: center;
@@ -154,6 +157,11 @@ body {
 .fa-envelope {
     background: #f2a900;
     color: white;
+}
+
+.mailing {
+    font-family: 'Jost', serif;
+    font-size: large;
 }
 
 .footer {
