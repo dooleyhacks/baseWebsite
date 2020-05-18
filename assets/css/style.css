@@ -135,10 +135,16 @@ nav.navbar {
     color: grey;
     font-size: 18px;
 }
+.carousel .carousel-inner {
+    border-radius: 15px;
+}
 
-
+#carousel img {
+    border-radius: 15px;
+    width: auto;
+}
 .fa {
-    padding: 14px;
+    padding: 10px;
     font-size:2em;
     height: 60px;
     width: 60px;
@@ -175,6 +181,11 @@ nav.navbar {
 
 .fa-envelope {
     background: #f2a900;
+    color: white;
+}
+
+.fa-github {
+    background: #000000;
     color: white;
 }
 
