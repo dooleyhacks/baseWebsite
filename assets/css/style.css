@@ -22,7 +22,7 @@ body {
 .navbar .navbar-brand {
     color: #0118c3;
     font-size: xx-large;
-
+    font-weight: bold;
 }
 .navbar .navbar-brand:hover,
 .navbar .navbar-brand:focus {
@@ -116,6 +116,18 @@ nav.navbar {
     -ms-transform: scale(1.15); /* IE 9 */
     -webkit-transform: scale(1.15); /* Safari 3-8 */
     transform: scale(1.15);
+}
+
+.zoom-large {
+    padding: 10px;
+    transition: transform .2s;
+    margin: 0 auto;
+}
+
+.zoom-large:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5);
 }
 
 .card {
