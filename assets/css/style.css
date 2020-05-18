@@ -88,6 +88,10 @@ nav.navbar {
     text-align: center;
 }
 
+.container .jumbotron {
+    border-radius: 25px ;
+}
+
 .sponsor {
     vertical-align: middle;
     min-width: 200px;
@@ -119,6 +123,12 @@ nav.navbar {
     min-width: 200px;
     margin: auto;
     text-align: center;
+    border-radius: 10px;
+}
+
+.card .head {
+    border-radius: 10px ;
+    width: 100%;
 }
 
 .title {
