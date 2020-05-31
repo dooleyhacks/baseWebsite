@@ -93,10 +93,21 @@ nav.navbar {
     border-radius: 25px ;
 }
 
-.sponsor {
-    vertical-align: middle;
-    min-width: 200px;
-    max-width: 200px;
+.carousel .carousel-inner {
+    border-radius: 15px;
+}
+
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23FFDA00' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}
+
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23FFDA00' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}
+
+#carousel img {
+    border-radius: 15px;
+    width: auto;
 }
 
 .blank-space-large {
@@ -148,14 +159,13 @@ nav.navbar {
     color: grey;
     font-size: 18px;
 }
-.carousel .carousel-inner {
-    border-radius: 15px;
+
+.sponsor {
+    vertical-align: auto;
+    min-width: 200px;
+    max-width: 200px;
 }
 
-#carousel img {
-    border-radius: 15px;
-    width: auto;
-}
 .fa {
     padding: 10px;
     font-size:2em;
